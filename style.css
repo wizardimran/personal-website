@@ -42,7 +42,7 @@ img{
     width: 100%;
 }
 .name_highlight{
-    color: orange;
+    color: #bd5f4a;
 }
 .half-width{
     width: 40%;
@@ -58,6 +58,11 @@ img{
     color:white;
     font-weight: 700;
     border-radius: 5px;
+}
+.link_button:hover {
+    background-color: #bd5f4a;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 /** End **/
@@ -93,7 +98,6 @@ span.highligt {
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 10px 10px 14px rgb(219, 217, 217);
-
     transition: 0.3s;
     cursor: help;
 }
