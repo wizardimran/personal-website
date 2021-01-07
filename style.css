@@ -22,14 +22,26 @@ h2 {
     font-weight: 500;
     font-size: 38px;
 }
+h3{
+    font-family: 'Work Sans', sans-serif; 
+    color: darkslategray;
+}
+
+h4{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(104, 103, 103);
+    letter-spacing: 0.5rem;
+}
 p{
     color: dimgrey;
     line-height: 2em;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
-.highlight{
+.name_highlight{
     color: orange;
 }
 .half-width{
@@ -42,12 +54,11 @@ img{
 .link_button{
     text-decoration: none;
     padding:10px 20px;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    background-color: #FB7262;
     color:white;
     font-weight: 700;
     border-radius: 5px;
 }
-
 
 /** End **/
 
@@ -55,80 +66,116 @@ img{
 
 /** ==== Projcet Area ==== **/
 
-.section-title{
-    text-align: center;
-}
-#work-area .works{
-    display: flex;
-    align-items: center;
-}
-.single-work {
-    background: #FFFFFF;
-    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
-    border-radius: 19.7436px;
-}
-
-.single-work h2,.work_p {
-    text-align: center;
-    font-family: Roboto;
-    /* font-weight: bold; */
-    font-size: 24px;
-    line-height: 28px;
-    color: #363958;
-}
-section#work-area {
+.project-area{
+    clear: both;
+    background-color: rgba(169, 169, 169, 0.233);
     height: 700px;
+    padding-top: 100px;
+    text-align: center;    
 }
-.work_p {
-    padding: 5px;
-}
-#work-area {
-    background-color: #F8F9FC;
+span.highligt {
+    color: #F46060;
 }
 
-#work-area .works{
-    padding: 0 7%;
+.item-area{
+    width: 80%;
+    margin: 0 auto;
 }
-#work-area .single-work{
-    width: 30%;
-    margin: 1.5%;
-    position: relative;
-    cursor: pointer;
 
+.item{
+    width: 28%;
+    float: left;
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 10px 10px 14px rgb(219, 217, 217);
+
+    transition: 0.3s;
+    cursor: help;
+}
+
+
+.item img{
+    width: 95%;
+}
+
+
+.item:hover {
+    box-shadow: 10px 10px 50px #903c3c;
+    transition: 0.3s;
 }
 
 /** End **/
 
 
 
-/** ===== Footer area ===== **/
+/** ===== Chat and Footer area ===== **/
  
 
-.footer-and-contact{
-    text-align: center;
-    padding: 0 8%;
-    background-image: url(images/footer-bg.png);
+.chat_area{
+    
+    background-image: url("images/footer_bg.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-position: left top ;
+    height: 400px;
+    width: 65%;
+    margin: 100px auto;
+    border-radius: 20px;
 }
 
-.footer-and-contact> *{
-    max-width: 620px;
-    margin: 0 auto;
+
+.chat{
+    width: 40%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    
+    
 }
 
-.contact .card p{
-    color: #ffffff;
+.chat h1{
+    color: floralwhite;
 }
 
-.contact .card{
-    background-image: url("images/footer_bg.png") ;
-    color: #ffffff;
-    padding: 30px 10px;
-    border-radius: 15px;
-    margin: 70px 0;
+
+.chat_btn{
+    float: right;
+    padding-top: 15%;
+    padding-right: 10%;
+
+}
+.chat_btn .btn {
+    background-color: #FF8063;
+    padding: 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: alias;
+    text-decoration: none;
 }
 
+.chat_btn .btn:hover {
+    box-shadow: 15px 15px 70px #903c3c;
+}
+
+footer{
+    text-align: center;
+    height: 300px;
+}
+
+.social img {
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
 
 /**End**/
