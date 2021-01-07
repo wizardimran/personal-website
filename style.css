@@ -117,7 +117,6 @@ span.highligt {
  
 
 .chat_area{
-    
     background-image: url("images/footer_bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -127,27 +126,20 @@ span.highligt {
     margin: 100px auto;
     border-radius: 20px;
 }
-
-
 .chat{
     width: 40%;
     float: left;
     padding-left: 10%;
     padding-top: 10%;
-    
-    
 }
 
 .chat h1{
     color: floralwhite;
 }
-
-
 .chat_btn{
     float: right;
     padding-top: 15%;
     padding-right: 10%;
-
 }
 .chat_btn .btn {
     background-color: #FF8063;
@@ -158,24 +150,29 @@ span.highligt {
     letter-spacing: 2px;
     cursor: alias;
     text-decoration: none;
+    
+    transition-duration: 0.3s;
 }
-
 .chat_btn .btn:hover {
-    box-shadow: 15px 15px 70px #903c3c;
+    box-shadow: 0px 0px 5px 15px #5e54d0;
+    transition: 0.5s;
 }
-
 footer{
     text-align: center;
     height: 300px;
 }
-
 .social img {
     height: 50px;
     width: 50px;
     padding: 3px;
     margin-left: 5px;
     margin-right: 5px;
-    transition: 0.3s;
+}
+.social img:hover {
+    box-shadow: 0px 0px 2px 2px #5f55d2;
+    border-radius: 50%;
+    cursor: alias;
+    transition: 0.5s;
 }
 
 /**End**/
