@@ -12,6 +12,35 @@ section{
      padding: 75px 0;
  }
  
+     
+/* == Nav menu == **/
+
+li.header_btn a{
+    text-decoration: none;
+}
+
+ul {
+    float: right;
+}
+
+li.header_btn {
+    float: left;
+    padding: 18px;
+    list-style: none;
+    color: #3C3C3C;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+li.header_btn:last-child {
+    margin-right: 70px;
+}
+li.header_btn a:hover {
+    color: #3c3c3c;
+    cursor: alias;
+}
+
+/** End* */
 
 /** ==== header area ==== **/
 
