@@ -30,6 +30,7 @@ li.header_btn {
     color: #3C3C3C;
     font-weight: 600;
     margin-left: 10px;
+    font-size: 17px;
 }
 
 li.header_btn:last-child {
