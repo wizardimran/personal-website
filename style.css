@@ -153,13 +153,13 @@ span.highligt {
 /** ===== Chat and Footer area ===== **/
  
 
-.chat_area{
-    background-image: url("images/footer_bg.png");
+.chat_area {
+    background-image: url(images/footer_bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
-    width: 65%;
+    height: 350px;
+    width: 60%;
     margin: 100px auto;
     border-radius: 20px;
 }
